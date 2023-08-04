@@ -16,6 +16,17 @@ body {
 .link {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -32,18 +43,13 @@ body {
 .footer span {
   color: #f4f4fd;
 }
-.list .ul {
-  list-style: none;
-}
+
 .studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--titel-color);
-  text-decoration: none;
-}
-.link .studio {
   text-decoration: none;
 }
 .studio:hover,
@@ -61,17 +67,18 @@ body {
 .contact-address {
   font-style: normal;
 }
-.link .address {
-  text-decoration: none;
-}
 .address:hover,
 .address:focus {
   color: var(--navyblue);
 }
 .section-one {
   background-color: var(--titel-color);
+  margin-bottom: 120px;
 }
 .titel-one {
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -96,6 +103,7 @@ body {
   list-style: none;
 }
 .titel-twoe {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -109,6 +117,9 @@ body {
   color: var(--gray);
 }
 .titel-three {
+  width: 323px;
+  margin: 0 auto;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -123,15 +134,15 @@ body {
   background-color: #f4f4fd;
 }
 .titel-four {
+  width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--titel-color);
-}
-.list {
-  list-style: none;
 }
 .list-item {
   background-color: var(--white);
@@ -147,12 +158,11 @@ body {
   background-color: var(--titel-color);
 }
 .footer-text {
+  margin-top: 17.5px;
+  width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-.list .section-portfolio {
-  list-style: none;
 }
 .button-portfolio {
   font-family: 'Roboto', sans-serif;
@@ -177,14 +187,25 @@ body {
   color: var(--titel-color);
 }
 .text-portfolio {
+  padding-top: 16px;
+  padding-bottom: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--gray);
 }
-.list .portfolio {
-  list-style: none;
+/* delete */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-.link .portfolio {
-  text-decoration: none;
+/* delete */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }

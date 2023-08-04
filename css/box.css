@@ -1,0 +1,43 @@
+.container {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* delete */
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+.container-portfolio {
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.section-container {
+  background-color: var(--titel-color);
+  padding: 188px 472px 292px 472px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.container-footer {
+  padding: 100px 1020px 100px 156px;
+}
+.container-pictures {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
