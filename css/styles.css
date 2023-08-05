@@ -29,7 +29,7 @@ body {
 }
 .list-ul {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 .list-nav {
   display: flex;
@@ -305,7 +305,6 @@ section {
   justify-content: center;
   margin-top: 96px;
   margin-bottom: 72px;
-  margin: 0 auto;
 }
 .portfolio-pictuses {
   margin-top: 72px;
