@@ -33,6 +33,7 @@ body {
 }
 .list-ul-second {
   gap: 24px;
+  display: flex;
 }
 .list-nav {
   display: flex;
