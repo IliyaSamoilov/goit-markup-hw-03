@@ -29,7 +29,7 @@ body {
 }
 .list-ul {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 .list-nav {
   display: flex;
