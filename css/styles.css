@@ -133,10 +133,13 @@ img {
   color: var(--white);
 }
 .button-container {
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button {
@@ -363,4 +366,7 @@ section {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+.header-list {
+  gap: 40px;
 }
