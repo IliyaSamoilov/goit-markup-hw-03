@@ -47,7 +47,6 @@ body {
 }
 .header-container {
   display: flex;
-  justify-content: space-around;
 }
 .img-container {
   display: flex;
@@ -79,10 +78,10 @@ img {
   color: var(--blue);
   text-decoration: none;
 }
-.logo span {
+.span {
   color: var(--titel-color);
 }
-.footer span {
+.footer-span {
   color: #f4f4fd;
 }
 .flex-img {
@@ -116,6 +115,7 @@ img {
 
 .contact-address {
   font-style: normal;
+  margin-left: auto;
 }
 .address:hover,
 .address:focus {
@@ -123,7 +123,6 @@ img {
 }
 .section-one {
   background-color: var(--titel-color);
-  margin-bottom: 120px;
   padding: 188px 0;
 }
 .titel-one {
@@ -160,6 +159,9 @@ img {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover,
 .button:focus {
@@ -243,7 +245,6 @@ img {
   margin-bottom: 16px;
 }
 .footer-text {
-  margin-top: 17.5px;
   width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
@@ -279,8 +280,6 @@ img {
   margin-bottom: 8px;
 }
 .text-portfolio {
-  padding-top: 16px;
-  padding-bottom: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -300,14 +299,10 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.li-button {
-  margin-bottom: 72px;
-}
 .portfolio-flex {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 .portfolio-pictuses {
